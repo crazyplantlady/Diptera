@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+}
+.card  {
+    width: 30%;
+    height: auto;
+    display: block;
+    box-shadow: 20px 20px 50px grey;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+h1 {
+    font-size: 30px;
+    font-style: bold;
+}
+h5{
+    font-size: 10px;
+    font-style: italic;
+}
+p {
+    font-size: 16px;
+}
+.txtarea {
+    margin-top: 20px;
+}
+.scores {/**********************hvernig?*****************
+    text-align: right;
+}*/
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.list {
+    padding: 30px 30px 0;
+}
+.form {
+    display: flex; 
+    flex-direction: row;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
